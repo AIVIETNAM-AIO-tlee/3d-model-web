@@ -35,7 +35,7 @@ if (!is_array($history)) {
     $history = [];
 }
 
-$hardcodedGeminiApiKey = 'AIzaSyD3P5aNsKGKKdbB_olY1cf2Sabr23Tw3Os';
+$hardcodedGeminiApiKey = '';
 $hardcodedGeminiModel = 'gemini-2.5-flash';
 
 $apiKey = getFirstAvailableSetting(['GEMINI_API_KEY', 'GOOGLE_API_KEY']);
