@@ -6,8 +6,8 @@ require_once __DIR__ . '/database.php';
 // Leave as empty string to keep environment-variable behavior.
 const PAYMENT_MOMO_SANDBOX_ENABLED = '1';
 const PAYMENT_MOMO_PARTNER_CODE = 'MOMOF02H20260420_TEST';
-const PAYMENT_MOMO_ACCESS_KEY = 'wHK9TzXWPSnnxoBO';
-const PAYMENT_MOMO_SECRET_KEY = 'Fi6iEkZy5M4ZjkIYVUVyeJnBcEqytB0X';
+const PAYMENT_MOMO_ACCESS_KEY = '';
+const PAYMENT_MOMO_SECRET_KEY = '';
 const PAYMENT_MOMO_RETURN_URL = 'http://localhost:8000/index.php?p=momo_return';
 const PAYMENT_MOMO_IPN_URL = '';
 const PAYMENT_MOMO_SANDBOX_ENDPOINT = 'https://test-payment.momo.vn/v2/gateway/api/create';
