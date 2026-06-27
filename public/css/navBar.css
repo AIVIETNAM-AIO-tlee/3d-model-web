@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+body {
+  padding-top: 76px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-brand h3 {
+  font-size: 18px;
+  margin: 0;
+}
